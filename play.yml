@@ -13,7 +13,7 @@
       setup:
 
   vars:
-    mattermost_version: 4.3.2
+    mattermost_version: 5.12.0
     postgres_version: 9.4
 
    # The user the mattermost process will run as. The group will match.
@@ -28,7 +28,7 @@
     db_password: notReallyPassword
 
    # This is the email address you want to be attached to the letsencrypt certificate. It should be valid.
-    cert_email_address: abc@123.com
+    cert_email_address: test@test.de
 
   roles:
     - postgres
